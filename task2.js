@@ -1,10 +1,10 @@
 function modifyContent() {
-    let div = document.getElementById("content-box");
+    let div = document.getElementById("container"); 
     let heading = document.getElementById("heading");
+    let paragraph = document.querySelector("#container p");
 
-    // Add a class to style the div and paragraph
+    document.querySelector("#container p").classList.add("styled-text");
     div.classList.add("styled");
 
-    // Change the heading text
     heading.textContent = "Israa Haj Ali's New Heading";
 }
